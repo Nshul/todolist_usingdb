@@ -1,0 +1,29 @@
+.btn{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    padding:20px;
+}
+.btn-up{
+    color: #0275d8;
+}
+.btn-down{
+    color: #0275d8;
+}
+.btn-del{
+    color: #d9534f;
+}
+#todoList > li:first-child > .btn-up{
+    /*display: none;*/
+    pointer-events: none;
+    visibility: hidden;
+}
+#todoList > li:last-child > .btn-down{
+    /*display: none;*/
+    pointer-events: none;
+    visibility: hidden;
+}
+#todoList >li:hover{
+    background-color: lightgray;
+}
